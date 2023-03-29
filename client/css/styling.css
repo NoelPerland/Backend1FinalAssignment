@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fff5cb, #985a08);
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center the h1 element */
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+/* Place the h2 elements underneath the h1 element */
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.center h2:nth-child(1) {
+  margin-right: 20px;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+
+.center h2:nth-child(2) {
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 240px;
+  border-radius: 12px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-left: 270px;
+  border-radius: 12px;
+}
+
+.lables {
+  font-size: 30px;
+}
+
+.lables label,
+.lables input {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+
+.lables input:last-child {
+  margin-right: 0;
+}
+
+.loginFormBtn {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.paragraphs {
+  font-size: 20px;
+  padding: 10px 20px;
+}

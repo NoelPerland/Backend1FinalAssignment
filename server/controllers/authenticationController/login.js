@@ -47,7 +47,7 @@ const login = function login(req, res) {
         let userCopy = Object.assign({}, result[0]);
         delete userCopy.password;
 
-        const loginToken = jwt.sign(userCopy, process.env.ACCESS_TOKEN_SECRET, {
+        const loginToken = jwt.sign(userCopy, process.env.DATABASE_SECRET, {
           expiresIn: 1000000,
         });
 

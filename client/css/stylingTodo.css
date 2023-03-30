@@ -18,13 +18,12 @@ body {
 
 h1 {
   font-size: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 2px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
 }

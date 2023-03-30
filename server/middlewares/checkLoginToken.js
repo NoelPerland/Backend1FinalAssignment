@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-const SECRET = process.env.ACCESS_TOKEN_SECRET;
+const SECRET = process.env.DATABASE_SECRET;
 
 exports.checkLoginToken = function checkLoginToken(req, res, next) {
   if (!req.cookies.loginToken) {

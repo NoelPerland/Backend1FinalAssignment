@@ -126,7 +126,7 @@ function renderTodos(todos) {
     btnDelete.addEventListener("click", () => {
       deleteTodo(item.todo_id);
     });
-
+    console.log(li);
     li.append(btnComplete, btnDelete);
     list.appendChild(li);
   });

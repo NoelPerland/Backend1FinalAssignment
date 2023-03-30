@@ -1,10 +1,9 @@
-let registerForm = document.querySelector(".register-form");
 let inputUsername = document.querySelector("#username");
 let inputPassword = document.querySelector("#password");
-let formRegisterBtn = document.querySelector(".register-form-btn");
+let formRegisterBtn = document.querySelector("#formRegisterBtn");
 let responseOutput = document.querySelector(".h3-response");
 
-registerForm.addEventListener("submit", async (e) => {
+formRegisterBtn.addEventListener("click", async (e) => {
   e.preventDefault();
 
   let username = inputUsername.value;
